@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 83, 83);
+  
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+  }
+
+h1 {
+    color:aliceblue;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    font-size: medium;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inicio {
+    background-color: rgb(72, 131, 72);
+}
+
+.pause {
+    background-color: rgb(192, 99, 99);
+}
+
+.reiniciar {
+    background-color: rgb(98, 160, 139);
+}
